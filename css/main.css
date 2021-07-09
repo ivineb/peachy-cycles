@@ -1,0 +1,133 @@
+:root {
+    --color-white: #fff;
+    --color-black: #1a1a1a;
+    --color-gray: #ccc;
+    --color-peach: #FFE5E5;
+    --font-sans-serif: "Heebo", sans-serif;
+  }
+  
+  
+  html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /**
+    *  About
+    */
+  
+  body {
+    font-family: var(--font-sans-serif);
+    margin: 2em;
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  h1 {
+    font-family: var(--font-serif);
+    line-height: 1.2;
+  }
+
+  a {
+    color: var(--color-black);
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+li {
+list-style: none;
+}
+
+  /**
+  *  capstone-page__layout
+  */
+  
+  .capstone-page {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 1.8em;
+  }
+  
+  /**
+  * .capstone-page__nav
+  */
+  .capstone-page__nav,
+  .sidebar-nav__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .capstone-page__header-container {
+    background: var(--color-peach);
+    padding: 2.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .sidebar-nav__heading {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+  .sidebar-nav__list {
+    font-size: 0.7em;
+    padding: 0;
+  }
+  
+
+  
+  
+
+
+  
+  /**** Media Queries ****/
+  
+  
+  /* larger screens */
+  @media (min-width: 768px) {
+    .project-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
+  
+    .section-services {
+      padding: 10em;
+    }
+  
+    .page-footer__links {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .legal-list,
+    .social-list,
+    .locations-list {
+      line-height: 1.2;
+    }
+  }
+  
+  /* smaller screens */
+  @media only screen and (max-width: 767px) {
+    .main-page__container,
+    .main-header__container {
+      margin: 0 auto;
+      width: 90%;
+    }
+  
+    .recent-news__list {
+      grid-template-columns: auto;
+    }
+  
+    .subscribe-section__container,
+    .page-footer-nav {
+      margin: 0;
+      padding: 1em;
+    }
+  }
