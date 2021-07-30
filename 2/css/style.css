@@ -430,8 +430,18 @@ p {
 	padding: 20px 0px
 }
 
+.text-highlight {
+	color:#E97171;
+	font-weight: 600;
+}
+.img-caption {
+	color:#1A8A86;
+	font-size: 1em;
+	padding: 1em;
+	font-style: italic;
+}
 .feedback-highlights li {
-	list-style-type: none;
+	list-style-type: square;
 }
 /* Works - Horizontal Gallery */
 
