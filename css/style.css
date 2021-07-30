@@ -401,6 +401,12 @@ p {
 	height: 100vh;
 }
 
+.web-sections-container {
+	background-color:lightyellow;
+	padding: 1.5em;
+}
+
+
 .background-1 {
 	background-image: url("../img/cool.jpg");
 }
@@ -437,6 +443,14 @@ p {
 	grid-template-columns: 200px 200px 200px;
 	grid-gap: 20px;
 	padding: 20px 0px
+}
+
+.web-sections-2 {
+	list-style: none;
+}
+
+.web-sections-2 li {
+	padding: 0.5em 0em;
 }
 
 .text-highlight {
