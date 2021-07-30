@@ -102,7 +102,9 @@ p {
 	font-weight: 550;
 }
 
-
+/* #currentpage {
+	color:#60C6BF;
+} */
 
 .navbar-dark .navbar-nav .nav-link {
 	color: #2E5657;
@@ -114,7 +116,7 @@ p {
 }
 
 .navbar a:link,
-.navbar a:hover,
+.navbar a:hover
 .navbar a:visited {
 	text-decoration: none;
 	color: #000;
@@ -403,10 +405,17 @@ p {
 	background-image: url("../img/illu-01.png");
 }
 
+.link {
+	text-decoration: underline;
+	color:#60C6BF;
+	font-weight: 600;
+}
 .background-2 {
 	background-image: url("../img/peeps2.jpg");
 }
-
+.background-3 {
+	background-image: url("../img/peachy-inclusivity-team.jpg");
+}
 .split-image-right {
 	padding-top: 10rem;
 	padding-bottom: 10rem;
@@ -452,7 +461,8 @@ p {
 }
 
 .about-me a {
-	color: #32CCC1;
+	text-decoration: underline;
+	color:#60C6BF;
 	font-weight: 600;
 }
 
