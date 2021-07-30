@@ -451,7 +451,18 @@ p {
 
 .web-sections-2 li {
 	padding: 0.5em 0em;
+	color:#2E5657;
 }
+
+hr {
+    display: block;
+    border: 0;
+    border-top: 1px solid #ccc;
+	border-bottom: 1.2px solid #1A8A86;
+    margin: 1em 0;
+    padding: 0;
+}
+
 
 .text-highlight {
 	color:#E97171;
