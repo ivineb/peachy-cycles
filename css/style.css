@@ -402,10 +402,10 @@ p {
 }
 
 .web-sections-container {
-	background-color:lightyellow;
-	padding: 1.5em;
+	background-color:#E1FFF9;
+	padding: 4em;
+	margin: 1em 0em;
 }
-
 
 .background-1 {
 	background-image: url("../img/cool.jpg");
@@ -452,6 +452,13 @@ p {
 .web-sections-2 li {
 	padding: 0.5em 0em;
 	color:#2E5657;
+}
+
+.process-section-wrap {
+	padding: 2em;
+}
+.process-sections {
+	padding: 0.8em 0em;
 }
 
 hr {
@@ -605,4 +612,10 @@ h3 {
 .contact-form .btn {
 	padding: 0.8rem 4rem;
 	border-radius: 5px;
+}
+
+.feedback-highlights li {
+	padding: 0.5em;
+	text-decoration: none;
+	list-style: square;
 }
