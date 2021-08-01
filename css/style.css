@@ -402,10 +402,15 @@ p {
 }
 
 .web-sections-container {
+	color:#2E5657;
 	background-color:#E1FFF9;
-	padding: 4em;
+	padding: 3em;
 	margin: 1em 0em;
 }
+.web-sections-container li {
+	padding: 0.4em;
+}
+
 
 .background-1 {
 	background-image: url("../img/cool.jpg");
@@ -455,7 +460,7 @@ p {
 }
 
 .process-section-wrap {
-	padding: 2em;
+	padding: 1.4em;
 }
 .process-sections {
 	padding: 0.8em 0em;
