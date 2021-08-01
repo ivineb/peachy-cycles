@@ -99,12 +99,8 @@ p {
 	top: 0;
 	width: 100%;
 	padding: 1.6rem 1rem;
-	font-weight: 550;
+	font-weight: 600;
 }
-
-/* #currentpage {
-	color:#60C6BF;
-} */
 
 .navbar-dark .navbar-nav .nav-link {
 	color: #2E5657;
@@ -115,12 +111,21 @@ p {
 	color: #E97171;
 }
 
+.nav-item-2{
+	text-decoration: underline;
+	color: #E97171;
+}
+
+
 .navbar a:link,
 .navbar a:hover
-.navbar a:visited {
+ {
 	text-decoration: none;
-	color: #000;
 	text-transform: uppercase;
+}
+
+.navbar a:active {
+	text-decoration: underline;
 }
 
 .navbar-dark .navbar-toggler {
@@ -554,7 +559,6 @@ h3 {
 	display: none;
 }
 
-
 /* Works */
 
 .works {
@@ -563,60 +567,12 @@ h3 {
 	padding-bottom: 3rem;
 }
 
-
 /* Studio */
 
 .studio {
 	font-size: 1.2em;
 	padding-top: 10rem;
 	padding-bottom: 10rem;
-}
-
-
-/* Contact */
-
-.contact {
-	font-size: 1.8em;
-	padding-top: 15rem;
-	padding-bottom: 10rem;
-}
-
-
-/* Contact Form */
-
-.contact-form {
-	font-size: 1.2em;
-	padding-bottom: 11rem;
-}
-
-.contact-form .btn-primary {
-	color: #fff;
-	background-color: #000;
-	border-color: #000;
-}
-
-.contact-form .form-control {
-	color: #000;
-	background-color: transparent;
-	border-color: #000;
-	border-width: 0 0 2px 0;
-	border-radius: 0;
-	border-style: solid;
-	font-size: 1.5rem;
-}
-
-.form-control::-webkit-input-placeholder {
-	color: #000;
-	opacity: 0.6;
-}
-
-.form-control {
-	padding: 1.5rem 16rem 1.5rem 0.75rem
-}
-
-.contact-form .btn {
-	padding: 0.8rem 4rem;
-	border-radius: 5px;
 }
 
 .feedback-highlights li {
