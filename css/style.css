@@ -113,9 +113,8 @@ p {
 
 .nav-item-2{
 	text-decoration: underline;
-	color: #E97171;
+	/* background-color: #F99D9D; */
 }
-
 
 .navbar a:link,
 .navbar a:hover
