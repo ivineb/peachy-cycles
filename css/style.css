@@ -111,7 +111,7 @@ p {
 }
 
 .nav-item-2 {
-	text-decoration: underline double;
+	text-decoration: underline;
 	/* background-color: #a1e7cf; */
 	font-weight: 800;
 }
