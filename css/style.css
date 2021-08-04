@@ -422,6 +422,9 @@ p {
 	color:#60C6BF;
 	font-weight: 600;
 }
+.link:hover {
+	color:#E97171;
+}
 .background-2 {
 	background-image: url("../img/peeps2.jpg");
 }
