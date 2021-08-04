@@ -15,7 +15,7 @@ body,
 .Container {
 	height: 100%;
 	font-family: interstate, sans-serif;
-	font-weight: 400;
+	/* font-weight: 400; */
 	font-style: normal;
 }
 
@@ -108,9 +108,10 @@ p {
 	color: #E97171;
 }
 
-.nav-item-2{
+.nav-item-2 {
 	text-decoration: underline;
-	/* background-color: #F99D9D; */
+	
+	background-color: #a1e7cf;
 }
 
 .navbar a:link,
