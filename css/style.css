@@ -21,6 +21,7 @@ body,
 
 body {
 	background-color: #fff;
+	line-height: 1.6;
 }
 
 .logo {
@@ -484,7 +485,6 @@ hr {
     padding: 0;
 }
 
-
 .text-highlight {
 	color:#E97171;
 	font-weight: 600;
@@ -512,7 +512,7 @@ hr {
 	font-weight: 600;
 }
 
-.about-me a:hover {
+.about-me a:hover, .fa-instagram:hover {
 	color:#E97171;
 	transition: color 0.25s linear;
 }
@@ -525,9 +525,11 @@ hr {
 .about-me-w h2 {
 	color:#2E5657;
 }
+
 .fa-instagram {
 color:#2E5657;
 }
+
 
 h3 {
 	font-size: 1.2em;
@@ -559,30 +561,16 @@ h3 {
 	-ms-flex-align: center;
 	-webkit-align-items: center;
 	align-items: center;
+	
 }
 
  :root {
 	--swiper-theme-color: #1A8A86;
+	
 }
 
 .swiper-pagination {
 	display: none;
-}
-
-/* Works */
-
-.works {
-	font-size: 1.2em;
-	padding-top: 14rem;
-	padding-bottom: 3rem;
-}
-
-/* Studio */
-
-.studio {
-	font-size: 1.2em;
-	padding-top: 10rem;
-	padding-bottom: 10rem;
 }
 
 .feedback-highlights li {
@@ -590,3 +578,14 @@ h3 {
 	text-decoration: none;
 	list-style: square;
 }
+
+/* deliverable */
+
+.del {
+	font-size: 1.2em;
+	padding-top: 14rem;
+	padding-bottom: 3rem;
+}
+
+
+
