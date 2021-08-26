@@ -1,6 +1,5 @@
 /* Fonts */
 
-
 @import url("https://use.typekit.net/yko3vii.css");
 
 /* Basic */
@@ -498,7 +497,7 @@ hr {
 .feedback-highlights li {
 	list-style-type: square;
 }
-/* Works - Horizontal Gallery */
+/* Horizontal Gallery */
 
 .swiper-container {
 	width: 100%;
