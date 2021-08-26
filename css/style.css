@@ -512,7 +512,7 @@ hr {
 	font-weight: 600;
 }
 
-.about-me a:hover, .fa-instagram:hover {
+.about-me a:hover, .fa-instagram:hover, .fa-spotify:hover {
 	color:#E97171;
 	transition: color 0.25s linear;
 }
@@ -526,7 +526,7 @@ hr {
 	color:#2E5657;
 }
 
-.fa-instagram {
+.fa-instagram, .fa-spotify {
 color:#2E5657;
 }
 
